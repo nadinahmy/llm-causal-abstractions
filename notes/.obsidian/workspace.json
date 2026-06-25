@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20260621/20260621-20260622.md",
+                "file": "20260623/20260623-20260624.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20260621-20260622"
+              "title": "20260623-20260624"
             }
           }
         ]
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20260621/20260621-20260622.md",
+                "file": "20260623/20260623.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 20260621-20260622"
+              "title": "Backlinks for 20260623"
             }
           },
           {
@@ -114,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "20260621/20260621-20260622.md",
+                "file": "20260623/20260623.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 20260621-20260622"
+              "title": "Outgoing links from 20260623"
             }
           },
           {
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "20260621/20260621-20260622.md",
+                "file": "20260623/20260623.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 20260621-20260622"
+              "title": "Outline of 20260623"
             }
           }
         ]
@@ -186,6 +186,9 @@
   },
   "active": "cf4700d344c2e63d",
   "lastOpenFiles": [
+    "20260621/20260621-20260622.md",
+    "20260623/20260623-20260624.md",
+    "20260623",
     "Pasted image 20260623183916.png",
     "Pasted image 20260623173432.png",
     "Pasted image 20260623173233.png",
@@ -193,7 +196,6 @@
     "Pasted image 20260622220908.png",
     "Pasted image 20260622182821.png",
     "Pasted image 20260622003352.png",
-    "20260621/20260621-20260622.md",
     "20260621"
   ]
 }
