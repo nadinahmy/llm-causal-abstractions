@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20260626/20260626.md",
+                "file": "20260627-28/Causal Inference Coding Tutorial.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20260626"
+              "title": "Causal Inference Coding Tutorial"
             }
           }
         ],
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "566d7beac8a79c3e",
@@ -200,11 +201,20 @@
   },
   "active": "febb2e144ce14b4c",
   "lastOpenFiles": [
+    "20260627-28/20260627.pdf",
+    "Pasted image 20260628225944.png",
+    "Pasted image 20260628222729.png",
+    "Pasted image 20260628221251.png",
+    "Pasted image 20260628220657.png",
+    "Pasted image 20260628220012.png",
+    "Pasted image 20260628175033.png",
+    "20260626/20260626.md",
+    "20260627-28/Causal Inference Coding Tutorial.md",
+    "20260627-28",
     "20260626/Definition 3.12 - ACM - 20260626.pdf",
     "20260626/20260626.pdf",
     "Pasted image 20260626222139.png",
     "20260623/20260623-20260624.md",
-    "20260626/20260626.md",
     "20260626",
     "Pasted image 20260626215326.png",
     "20260621/20260621-20260622.md",
@@ -212,11 +222,6 @@
     "20260623",
     "Pasted image 20260623183916.png",
     "Pasted image 20260623173432.png",
-    "Pasted image 20260623173233.png",
-    "Pasted image 20260622222539.png",
-    "Pasted image 20260622220908.png",
-    "Pasted image 20260622182821.png",
-    "Pasted image 20260622003352.png",
     "20260621"
   ]
 }
