@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20260702/JMLR - Causal Abstraction, A Theoretical Foundation for Mechanistic Interpretability.md",
+                "file": "20260621/20260621-20260622.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JMLR - Causal Abstraction, A Theoretical Foundation for Mechanistic Interpretability"
+              "title": "20260621-20260622"
             }
           }
         ]
@@ -183,35 +183,35 @@
       "bases:Create new base": false
     }
   },
-  "active": "0af6425b6a049fb1",
+  "active": "a6f2be2754fc4397",
   "lastOpenFiles": [
+    "20260621/20260621-20260622/IMG-20260622003352522.png",
+    "20260621/20260621-20260622.md",
+    "20260630-20260701/Approximate Causal Abstraction/IMG-20260630105702964.png",
+    "20260630-20260701/Approximate Causal Abstraction/IMG-20260701213856062.png",
+    "20260702/JMLR - Causal Abstraction, A Theoretical Foundation for Mechanistic Interpretability.md",
+    "20260630-20260701/Approximate Causal Abstraction",
+    "20260627-28/Causal Inference Coding Tutorial",
+    "20260626/20260626",
+    "20260623/20260623-20260624",
+    "20260621/20260621-20260622",
     "20260702/JMLR - Causal Abstraction Notes & Def 15.pdf",
     "20260623/20260623-20260624.md",
-    "20260702/JMLR - Causal Abstraction, A Theoretical Foundation for Mechanistic Interpretability.md",
     "20260630-20260701/Approximate Causal Abstraction.md",
     "20260702",
     "20260630-20260701/Approx Causal Abstractions. Handwritten notes.pdf",
     "20260630-20260701/Approx Causal Abstractions. Derivations.pdf",
-    "Pasted image 20260701221204.png",
-    "Pasted image 20260701213856.png",
+    "20260630-20260701/Approximate Causal Abstraction/IMG-20260701221204896.png",
     "20260627-28/Causal Inference Coding Tutorial.md",
     "Causal Inference Coding Tutorial Exercise 5.md",
-    "Pasted image 20260630105702.png",
     "20260630-20260701",
-    "20260627-28/20260627.pdf",
-    "Pasted image 20260628225944.png",
-    "Pasted image 20260628222729.png",
-    "Pasted image 20260628221251.png",
-    "Pasted image 20260628220657.png",
-    "Pasted image 20260628220012.png",
-    "Pasted image 20260628175033.png",
+    "20260627-28/Causal Inference Coding Tutorial/IMG-20260628225944177.png",
+    "20260627-28/Causal Inference Coding Tutorial/IMG-20260628222729259.png",
+    "20260627-28/Causal Inference Coding Tutorial/IMG-20260628221251586.png",
+    "20260627-28/Causal Inference Coding Tutorial/IMG-20260628220657348.png",
+    "20260627-28/Causal Inference Coding Tutorial/IMG-20260628220012056.png",
+    "20260627-28/Causal Inference Coding Tutorial/IMG-20260628175033549.png",
     "20260626/20260626.md",
-    "20260627-28",
-    "20260626/Definition 3.12 - ACM - 20260626.pdf",
-    "20260626/20260626.pdf",
-    "Pasted image 20260626222139.png",
-    "20260626",
-    "20260621/20260621-20260622.md",
-    "20260623/20260624.pdf"
+    "20260626/20260626/IMG-20260626222139056.png"
   ]
 }

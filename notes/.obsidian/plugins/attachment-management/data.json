@@ -1,0 +1,27 @@
+{
+  "attachPath": {
+    "attachmentRoot": "/",
+    "saveAttE": "inFolderBelow",
+    "attachmentPath": "${notepath}/${notename}",
+    "attachFormat": "IMG-${date}",
+    "type": "GLOBAL",
+    "extensionOverride": [
+      {
+        "extension": "pdf",
+        "attachmentRoot": "",
+        "saveAttE": "obsFolder",
+        "attachmentPath": "${notepath}/${notename}",
+        "attachFormat": "IMG-${date}"
+      }
+    ]
+  },
+  "dateFormat": "YYYYMMDDHHmmssSSS",
+  "excludeExtensionPattern": "",
+  "autoRenameAttachment": true,
+  "excludedPaths": "",
+  "excludePathsArray": [],
+  "excludeSubpaths": false,
+  "originalNameStorage": [],
+  "overridePath": {},
+  "disableNotification": false
+}

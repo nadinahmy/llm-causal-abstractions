@@ -28,7 +28,7 @@ $$F_Y(x, z, u) \neq F_Y(x', z, u)$$
 A causal formula isn't true or false on its own — we need _both_ the model `M` (the equations) _and_ a context `u` (the external inputs) before we can ask whether it holds. That's why everything is phrased as `(M, u) ⊨ ψ` rather than `M ⊨ ψ`.
 - `(M, u) ⊨ X = x` is true exactly when the variable `X` actually comes out equal to `x` once you solve the model's equations in context `u`. Because the model is recursive, there's a _unique_ solution (you just solve the variables one at a time in causal order), so there's no ambiguity — `X` has one definite value, and the formula is true iff that value is `x`
 ---
-![[Pasted image 20260630105702.png|363]]
+![[IMG-20260630105702964.png|363]]
 To check whether `φ` is true *under that intervention*, we don't evaluate `φ` in the original model `M` — we first build the surgically-altered model `M_{Y←y}` and *then* check whether `φ` holds in *that* model, using the same context `u`. So `[Y←y]φ` formalizes the statement *"φ would be the case if we intervened to set Y to y."*
 - - `M(u)` = the single complete value-vector `v` that all the variables take in context `u`. Formally it's the unique `v` with `(M, u) ⊨ 𝒱 = v`. Think of it as **"run model M with external inputs u, and M(u) is the resulting state of the whole world."**
 - `M(u, Y←y)` = the same thing, but in the _intervened_ world. It's the unique `v` such that `(M, u) ⊨ [Y←y](𝒱 = v)` — i.e. **"run the model with inputs u, but also forcing Y = y, and read off the full resulting state."**
@@ -47,7 +47,7 @@ See [[20260623-20260624#==Definition 3.12==]] for detailed definition of restric
 > - **Alpha (**α**):** If the maximum discrepancy is ≤α, then M1​ is an α-approximation of M2​. It provides a mathematical guarantee on the maximum possible prediction error.
 
 ---
-![[Pasted image 20260701213856.png|546]]
+![[IMG-20260701213856062.png|546]]
 - **Pathway 1 (Micro-First):** Perform a micro-intervention (X←x) in a micro-context (uL​), calculate the micro-result (ML​), and then "zoom out" using the mapping function τ.
 - **Pathway 2 (Macro-First):** "zoom out" the intervention and context first (using ωτ​ and τU​) and then run the high-level macro-model (MH​) to get a prediction.
 
@@ -72,7 +72,7 @@ As mentioned in the paper : **We are identifying the degree to which MH approxim
 ---
 > [!DEFINITION] **Definition 4.2: Likelihood of Serious Error (**dβ​**)**
 > -  used when you don't care about the average error, but you are very worried about **major failures** or "outliers".
-> ![[Pasted image 20260701221204.png]]
+> ![[IMG-20260701221204896.png]]
 >- β : **Tolerance Threshold** ---> It represents what you consider a "serious" or "significant" difference (e.g., an error of more than 5 degrees in a weather model).
 >- Pr({u:⋯≥β}): **Probability of Failure** ---> It calculates the total likelihood of all environments where the distance between the two models' predictions is greater than or equal to your threshold β.
 >- max…​: Again, we evaluate this for the intervention that causes the most frequent "major" errors.

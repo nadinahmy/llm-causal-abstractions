@@ -3,7 +3,7 @@
 	- This conversion is called a "identifying a causal estimand"
 - ∑zP(y∣a′,z)⋅P(z) ---> to estimate the interventional distribution correctly, we need to evaluate the conditional distribution of Y given A and Z in every subgroup of our population corresponding to a specific value of Z.
 	- Also called ==standardization==
-- ![[Pasted image 20260628175033.png|537]]
+- ![[IMG-20260628175033549.png|537]]
 	- loop over the three sickness levels, compute `P(z)` (the fraction of patients in that level) and `E[Y|A=a,Z=z]` (the mean survival of patients at treatment `a` in that level), multiply, and sum. Run it for `a=1` and `a=0`, subtract, and you get ≈ **+0.27** — matching randomization. The bias is gone.
 - parent_adjustment_estimator(data, a=1) is the estimated survival rate in a world where _everyone_ is forced to take the drug, and `a=0` is the world where nobody does
 	- The difference is the Average Treatment Effect!
@@ -17,24 +17,24 @@
 - Exercise 3 - Back door adjustment:
 	- What is the problem? Sometimes measuring/observing all confounders is infeasible / expensive, however we can smartly choose a small subset, i.e the backdoor criterion
 	- Back-door paths are the source of confounding because they create a fake "association" between A and Y that isn't the treatment actually working. To get a ==clean estimate==, we need to _block_ all of them.
-	- ![[Pasted image 20260628220012.png|454]]
+	- ![[IMG-20260628220012056.png|454]]
 		- Small refresher on 3 causal patterns observed in graphs:
 		1. **the fork (common cause):** `A ← C → B`. Here `C` causes both, data shows A and B seem related _until_ you hold C fixed, then the relationship [dependency] vanishes.
 		2. **the chain (mediator):** `A → C → B`. Here A affects B _through_ C. Same as above: related until you hold C fixed, then unrelated.
 		3. **the collider (v-structure):** `A → C ← B`.   A and B are _unrelated_ to start with — but holding C fixed _creates_ a relationship that wasn't there.
 		4. for forks and chains, conditioning on the middle variable _blocks_ the connection; for colliders, conditioning _opens_ it. [d-separation framework]
 - ==Something that I do not understand at all, and need to research/ask Matej about more as it's very confusing : How is "A ← Z1 → Z2 → Y" a path? do we just ignore orientation here when discussing possible back door "paths"? does this mean that a path in this context is undirected?==
-	- ![[Pasted image 20260628220657.png|453]]
+	- ![[IMG-20260628220657348.png|453]]
 - What is the conclusion of exercise 3? 
 	- once you hold _both_ `A` and `Z2` fixed, changing `Z1` does nothing to `Y`. In symbols, `P(Y | A, Z1, Z2) = P(Y | A, Z2)`. 
 	- The unmeasured variable `Z1` carries no extra information once you know `Z2`. So we can safely ignore it and save money instead of buying the expensive instrument mentioned in the exercise.
-- ![[Pasted image 20260628221251.png|422]]
+- ![[IMG-20260628221251586.png|422]]
 	- parent-adjustment formula (which needs _both_ `Z1` and `Z2`) collapses down to a small formula that needs _only_ `Z2`.
 	- Line 1 : for every combination of `(z1, z2)`, take the outcome rate at that combination, weight it by how common that combination is, and add them up.
 	- Line 2: we split the sum into 2 nested sums and use the chain rule, easy
 	- Line 3: since Z1 and Y are independent, we can remove Z1 from the conditioning set, also easy
 	- Reshuffling cause P(y|a',z2) no longer depends on z1, its just a constant w.r.t to z1 so we pull it out, clear
-	- ∑z1​​P(z1​∣z2​)=1 because ![[Pasted image 20260628222729.png|444]]
+	- ∑z1​​P(z1​∣z2​)=1 because ![[IMG-20260628222729259.png|444]]
 	- finally we're left with parent adjustment using only Z2!
 	
 Memory check: the ∑  symbol [I keep getting confused by this, noted here for future reference]
@@ -57,7 +57,7 @@ $$\sum_{z} P(y \mid a, z)\cdot P(z) = \text{weighted average of the outcome over
 - What is this fixing? ---> treated group is overloaded with critical patients who get treatment a lot more than mild patients. If we assign a x20 weight to mild patients, IPW rebuilds the treated group so that it contains patients of all severity levels? [or atleast this is what I've understood]. Basically, by doing this, treatment no longer depends on Z anymore.
 ### Exercise 5
 Main pipeline
-![[Pasted image 20260628225944.png|283]]
+![[IMG-20260628225944177.png|283]]
 - What's the problem here? ---> the confounder Z is now an image (the check-in photo of the animal). We can't stratify on pixels like before, every animal would basically be its own stratum. So the counting estimators from Ex 2-3 don't work here.
 - The key idea [and honestly the whole point of the tutorial]: the estimators are ==modular==. The propensity score `P(A|Z)` is "a function that predicts treatment from the confounder" ---> so we train a CNN to BE that function, then run the exact same IPW estimator from Ex 4 on top of it.
 - The dataset used:
