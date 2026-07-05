@@ -84,10 +84,14 @@ New concept being introduced : **Interventionals**!
 > **Interpretability context:** Hard interventions are the basis for [[Activation Patching]] (patching in a specific value), while soft interventions and interventionals allow for more general [[Model Transformations]].
 
 ---
-> [!abstract] Definition 15: Intervention Algebra  
+### Definition 15 : Intervention Algebra
+> [!abstract] Definition 15  
 > **Goal:** Identify sets of complex neural manipulations that _act like_ simple, independent switches.
 > 
 > **Requirement:** The system must be **isomorphic to standard hard interventions**.  
+> 
+> An **intervention algebra** is a set of actions/manipulations that behaves like ordinary **hard interventions**.
+> 
 > This means it must obey two rules:
 > 
 > 1. **Commutativity**  
@@ -98,11 +102,9 @@ New concept being introduced : **Interventionals**!
 >     
 > 
 > **Why it matters:**  
-> This lets us define **modular features** in LLMs.  
-> Even if a feature is spread across many neurons, if we can find an _algebra of actions_ that obeys these rules, we can treat that feature as a single, high-level causal variable.
-
-> [!abstract] Definition 15: Intervention Algebra
-> An **intervention algebra** is a set of actions/manipulations that behaves like ordinary **hard interventions**.
+> - This lets us define **modular features** in LLMs.  
+> - Even if a feature is spread across many neurons, if we can find an _algebra of actions_ that obeys these rules, we can treat that feature as a single, high-level causal variable.
+> - **The key idea:** Even if the actions are complicated neural manipulations, they count as an intervention algebra if they behave like simple causal switches.
 >
 > Formally:
 > 
@@ -113,18 +115,4 @@ New concept being introduced : **Interventionals**!
 > - $\oplus$ = how we combine those actions
 > - $\Phi$ = the set of standard hard interventions
 > - $\circ$ = doing interventions one after another
->
-> The key idea:
-> Even if the actions are complicated neural manipulations, they count as an intervention algebra if they behave like simple causal switches.
->
-> Important properties:
->
-> 1. **Commutativity**
->    If two actions target different variables, order does not matter.
->
-> 2. **Left-Annihilativity**
->    If two actions target the same variable, the later action overwrites the earlier one.
->
-> Intuition:
-> Intervention algebras let us treat messy distributed neural features as clean high-level causal variables.
 
