@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20260702/JMLR - Causal Abstraction, A Theoretical Foundation for Mechanistic Interpretability.md",
+                "file": "20260712/Continuation of Neural Causal Abstractions - Section 2.2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JMLR - Causal Abstraction, A Theoretical Foundation for Mechanistic Interpretability"
-            }
-          },
-          {
-            "id": "bb5f471b0baa3956",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260710-11/Neural Causal Abstractions.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Neural Causal Abstractions"
+              "title": "Continuation of Neural Causal Abstractions - Section 2.2"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -198,15 +183,20 @@
       "bases:Create new base": false
     }
   },
-  "active": "a6f2be2754fc4397",
+  "active": "2c7fee1ecf0a11dd",
   "lastOpenFiles": [
+    "20260712/Continuation of Neural Causal Abstractions - Section 2.2",
+    "20260712/Continuation of Neural Causal Abstractions - Section 2.2/IMG-20260712204728121.png",
+    "20260702/JMLR - Causal Abstraction, A Theoretical Foundation for Mechanistic Interpretability.md",
+    "20260712/Continuation of Neural Causal Abstractions - Section 2.2.md",
+    "20260712",
     "20260710-11/Continual Causal Abstraction - notes.pdf",
+    "20260710-11/Neural Causal Abstractions.md",
+    "20260710-11.zip",
     "20260710-11/Neural Causal Abstractions/IMG-20260711195616598.png",
     "20260710-11/Neural Causal Abstractions",
     "20260710-11/Neural Causal Abstractions/IMG-20260711191456080.png",
     "20260710-11",
-    "20260702/JMLR - Causal Abstraction, A Theoretical Foundation for Mechanistic Interpretability.md",
-    "20260710-11/Neural Causal Abstractions.md",
     "20260630-20260701/Approximate Causal Abstraction.md",
     "20260630-20260701/Approx Causal Abstractions. Derivations.pdf",
     "20260630-20260701/Approx Causal Abstractions. Handwritten notes.pdf",
@@ -220,17 +210,13 @@
     "20260705/Theorem 21 - JMLR Causal Abstraction.pdf",
     "JMLR - Causal Abstraction, A Theoretical Foundation for Mechanistic Interpretability.md",
     "20260704/Continuation of JMLR - Causal Abstractions Paper.md",
-    "20260705",
-    "20260704/Thereom 20 - Proof and Example.pdf",
     "20260704/Continuation of JMLR - Causal Abstractions Paper/Visual diagram of sort and collapse process.png",
-    "20260704/Continuation of JMLR - Causal Abstractions Paper",
     "20260621/20260621-20260622/IMG-20260622003352522.png",
     "20260630-20260701/Approximate Causal Abstraction/IMG-20260630105702964.png",
     "20260630-20260701/Approximate Causal Abstraction/IMG-20260701213856062.png",
     "20260630-20260701/Approximate Causal Abstraction/IMG-20260701221204896.png",
     "Causal Inference Coding Tutorial Exercise 5.md",
     "20260627-28/Causal Inference Coding Tutorial/IMG-20260628225944177.png",
-    "20260627-28/Causal Inference Coding Tutorial/IMG-20260628222729259.png",
-    "20260627-28/Causal Inference Coding Tutorial/IMG-20260628221251586.png"
+    "20260627-28/Causal Inference Coding Tutorial/IMG-20260628222729259.png"
   ]
 }
