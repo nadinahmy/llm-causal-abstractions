@@ -1,6 +1,6 @@
 "M′ is L2-consistent with M" :  
 	$L_2(M') = L_2(M)$
-- Recall $L_2(M)$ = "the whole bucket of interventional distributions M can produce." So this equation just says: for every possible intervention,  and M′ produce the exact same probability table.
+- Recall $L_2(M)$ = "the whole bucket of interventional distributions M can produce." So this equation just says: for every possible intervention,  M and M′ produce the exact same probability table.
 Why this breaks down for $V_L$ vs. $V_H$​?
 - Example: $M_L$ is defined over **low-level variables** $V_L$ (e.g. carbs, fat, protein, dish, BMI), while $M_H$ is defined over **high-level variables** $V_H$​ (e.g. calories, dish, BMI-category).
 - These are **different variable spaces** — $M_L$'s distribution table has columns for carbs/fat/protein; $M_H$​'s distribution table has a column for "calories" instead. We cannot line up the two tables row-by-row and ask "do these match?" — the columns don't even correspond to the same things. $L_i(M_L) = L_i(M_H)$  itself is undefined, not just false.
