@@ -102,7 +102,8 @@ The transformation T is the matrix that maps concrete states (x) to abstract sta
 - **Non-Empty Relevant Sets:** If a column in T were empty (all zeros), the corresponding abstract variable would always be zero regardless of the low-level state. This would violate surjectivity because you could never "reach" any other value for that variable.
 **The Requirement for Interventional Consistency**
 The core of Causal Abstraction is **Interventional Consistency** (Equation 4). This rule states that if you "do" something in the abstract world (like setting a concept to "Positive"), the result must be identical to what happens if you perform the corresponding "implementation" in the messy concrete world.
-**Why Relevant Variables Must Be Disjoint (Lemma 1)**
+#### Lemma 1
+**Why Relevant Variables Must Be Disjoint**
 - relevant variables must be **mutually disjoint** ---> a single concrete variable (like a specific neuron) cannot be "relevant" to two different abstract variables.
 Proven by contradiction in **Appendix B.1**:
 - **The Conflict:** Imagine one concrete variable, $X_s$​, is part of the "Relevant Set" for both Y1​ and Y2​.
