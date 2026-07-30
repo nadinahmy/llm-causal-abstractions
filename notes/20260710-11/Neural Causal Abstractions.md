@@ -128,7 +128,7 @@ Same example with more than one variable at once:
 |...|...|...|
 |6|6|1/36|
 
-- This is written as P(R,B)P(R, B) P(R,B) — "the joint distribution over R and B." Same idea, just over a bigger table because there are two variables instead of one.
+- This is written as P(R,B) — "the joint distribution over R and B." Same idea, just over a bigger table because there are two variables instead of one.
 
 Connecting this to $P(\mathbf{V})$ :
 - $\mathbf{V}$ is _all_ the variables in the model bundled together (like R and B bundled together above, but potentially many more variables).
