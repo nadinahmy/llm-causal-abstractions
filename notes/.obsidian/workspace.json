@@ -11,10 +11,14 @@
             "id": "6b8add6f7b0cfd04",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "20260729/Finding Alignments between Interpretable Causal Models and Distributed Neural Representations - Part 1.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Finding Alignments between Interpretable Causal Models and Distributed Neural Representations - Part 1"
             }
           }
         ]
@@ -179,9 +183,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "a6f2be2754fc4397",
+  "active": "6b8add6f7b0cfd04",
   "lastOpenFiles": [
-    "20260729/Finding Alignments between Interpretable Causal Models and Distributed Neural Representations.md",
+    "20260726/Potential Research Direction.md",
+    "20260729/Finding Alignments between Interpretable Causal Models and Distributed Neural Representations - Part 1.md",
     "20260712/Continuation of Neural Causal Abstractions - Section 2.2.md",
     "20260710-11/Neural Causal Abstractions.md",
     "Speaker notes.md",
@@ -192,7 +197,6 @@
     "20260722/Continuing Linear CAs for Linear SCMs.md",
     "20260720-21/Learning Causal Abstractions of Linear SCMs.md",
     "20260710-11/Continual Causal Abstraction - notes.pdf",
-    "20260726/Potential Research Direction.md",
     "20260726",
     "20260725.zip",
     "20260725/A refresher on LLMs and Mechanistic Interpretability/IMG-20260725215347243.png",

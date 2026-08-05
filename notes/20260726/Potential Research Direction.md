@@ -23,7 +23,6 @@ Represent a "concept" ---> Learn abstraction ---> Intervene ---> Test commutativ
 ```
 ---
 #### Questions I need to answer
-- Can I use ACDC (automated circuit discovery) to minimize my search space in the complex LLM structure before attempting to find an abstraction function? Would this be beneficial in my case?
 - What is DAS? Does it already do what I'm trying to do here? Is what I'm trying to do already out there or is this really a fresh untouched research area?
 - What is linear probing? Why is it similar / different to what Im trying to do?
 - The whole goal is to check whether the causal abstraction mapping is faithful under intervention rather than just being observationally correlated.
