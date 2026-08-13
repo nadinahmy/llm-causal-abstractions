@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "08311d6dc508a639",
+        "id": "d6c2189a0bd4d66b",
         "type": "tabs",
         "children": [
           {
-            "id": "6b8add6f7b0cfd04",
+            "id": "ca6a88eed3006608",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20260729/Finding Alignments between Interpretable Causal Models and Distributed Neural Representations - Part 1.md",
+                "file": "20260813/Continuing DAS Paper.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Finding Alignments between Interpretable Causal Models and Distributed Neural Representations - Part 1"
+              "title": "Continuing DAS Paper"
             }
           }
         ]
@@ -183,10 +183,17 @@
       "bases:Create new base": false
     }
   },
-  "active": "6b8add6f7b0cfd04",
+  "active": "a6f2be2754fc4397",
   "lastOpenFiles": [
-    "20260726/Potential Research Direction.md",
+    "Archive.zip",
+    "20260813/Continuing DAS Paper",
+    "20260813/Continuing DAS Paper/IMG-20260813222819990.png",
+    "20260810-11/Finding Alignments Between Interpretable Causal Variables and Distributed Neural Representations - Part 2.md",
+    "20260813/Continuing DAS Paper.md",
+    "20260813",
+    "20260810-11",
     "20260729/Finding Alignments between Interpretable Causal Models and Distributed Neural Representations - Part 1.md",
+    "20260726/Potential Research Direction.md",
     "20260712/Continuation of Neural Causal Abstractions - Section 2.2.md",
     "20260710-11/Neural Causal Abstractions.md",
     "Speaker notes.md",
@@ -206,11 +213,8 @@
     "20260725/A refresher on LLMs and Mechanistic Interpretability/IMG-20260725210929159.png",
     "synthesis/thesis-synthesis.md",
     "20260725",
-    "synthesis",
-    "20260723/Learning Causal Abstractions of Linear Structural Causal Models - Pt3",
     "20260723/Learning Causal Abstractions of Linear Structural Causal Models - Pt3/IMG-20260723201151185.png",
     "Learning Causal Abstractions of Linear Structural Causal Models - Pt3.md",
-    "20260723",
     "Lemma 6.md",
     "Lemma 1.md",
     "20260712/Continuation of Neural Causal Abstractions - Section 2.2/IMG-20260712204728121.png",
@@ -226,8 +230,6 @@
     "20260704/Continuation of JMLR - Causal Abstractions Paper.md",
     "20260704/Continuation of JMLR - Causal Abstractions Paper/Visual diagram of sort and collapse process.png",
     "20260621/20260621-20260622/IMG-20260622003352522.png",
-    "20260630-20260701/Approximate Causal Abstraction/IMG-20260630105702964.png",
-    "20260630-20260701/Approximate Causal Abstraction/IMG-20260701213856062.png",
-    "Causal Inference Coding Tutorial Exercise 5.md"
+    "20260630-20260701/Approximate Causal Abstraction/IMG-20260630105702964.png"
   ]
 }
