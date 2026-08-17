@@ -167,7 +167,7 @@ So, finally, what is $\{P(\mathbf{V}_{z_1}), P(\mathbf{V}_{z_2}), \ldots\}$?
 $\mathbb{Z}$ is just "here's my binder of ℓ such tables, one per intervention I care about."
 
 ---
-Definition 2 : G-Constrained Neural Causal Model
+# Definition 2 : G-Constrained Neural Causal Model
 -  **G-NCM** is just an SCM where the mechanism functions are replaced with trainable neural networks, but the neural networks are only allowed to look at the inputs that the causal diagram says they're allowed to look at.
 - SCM has endogenous variables V, exogenous "contexts" U, and mechanisms F — one function $f_{V_i}$​​ per variable, saying how to compute $V_i$​ from its parents and its own noise.
 
