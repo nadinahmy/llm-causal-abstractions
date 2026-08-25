@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20260823/HyperDAS.md",
+                "file": "20260824/HyperDAS Pt2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HyperDAS"
+              "title": "HyperDAS Pt2"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "alpaca",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -187,12 +187,15 @@
   },
   "active": "a6f2be2754fc4397",
   "lastOpenFiles": [
-    "Archive.zip",
-    "20260818/Interpretability at Scale.md",
     "20260823/HyperDAS.md",
     "20260817/Distributions.md",
-    "20260823",
+    "20260810-11/Finding Alignments Between Interpretable Causal Variables and Distributed Neural Representations - Part 2.md",
     "20260819-20/DAS introduction tutorial.md",
+    "20260824/HyperDAS Pt2.md",
+    "20260824",
+    "Archive.zip",
+    "20260818/Interpretability at Scale.md",
+    "20260823",
     "20260819-20/DAS Tutorial Changes for Mac - Reproducible Environment Compatibility.md",
     "20260822/Transformers, Attention, and Multi Layer Perceptrons - Recap.md",
     "20260823",
@@ -207,9 +210,7 @@
     "20260816",
     "20260710-11/Neural Causal Abstractions.md",
     "20260813/Continuing DAS Paper.md",
-    "20260814",
     "20260813/Continuing DAS Paper/IMG-20260813222819990.png",
-    "20260810-11/Finding Alignments Between Interpretable Causal Variables and Distributed Neural Representations - Part 2.md",
     "20260729/Finding Alignments between Interpretable Causal Models and Distributed Neural Representations - Part 1.md",
     "20260726/Potential Research Direction.md",
     "20260712/Continuation of Neural Causal Abstractions - Section 2.2.md",

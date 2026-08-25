@@ -143,11 +143,12 @@ logit1 = 0.00000000000001   (fixed near-zero constant)
 
 Verifying with cases:
 
-|Case|d1, d2|logit0|Winner|Correct?|
-|---|---|---|---|---|
-|Both pairs equal|0, 0|`0`|logit1 (True)|✅ WX=YZ=True → O=True|
-|One pair equal, other not|0, 5|`≈0.000005`|logit0 (False)|✅ WX≠YZ → O=False|
-|Both pairs unequal, similar magnitude|3, 7|`≈−6`|logit1 (True)|✅ WX=YZ=False → O=True|
+| Case                                  | d1, d2 | logit0      | Winner         | Correct?               |
+| ------------------------------------- | ------ | ----------- | -------------- | ---------------------- |
+| Both pairs equal                      | 0, 0   | `0`         | logit1 (True)  | ✅ WX=YZ=True → O=True  |
+| One pair equal, other not             | 0, 5   | `≈0.000005` | logit0 (False) | ✅ WX≠YZ → O=False      |
+| Both pairs unequal, similar magnitude | 3, 7   | `≈−6`       | logit1 (True)  | ✅ WX=YZ=False → O=True |
+|                                       |        |             |                |                        |
 
 Why the `0.999999` coefficient?
 - ==Since `|d1−d2| ≤ d1+d2` always (triangle-inequality-like fact), multiplying the sum by slightly-less-than-1 makes `logit0`negative/zero whenever the two distances are comparable (including both zero) — but leaves a small positive residue the instant one distance is exactly 0 and the other isn't, just enough to clear the tiny `logit1` bias.== This single scalar comparison implements the boolean `O = (WX==YZ)` purely via magnitude arithmetic, no explicit branching.
