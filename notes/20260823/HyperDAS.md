@@ -146,11 +146,14 @@ Shape setup:
 <mark style="background: #FF5582A6;">Why do we store every layer?</mark>
 > "Each layer of the hyper-network H can attend to every layer of the target model."
 - <mark style="background: #ABF7F7A6;">Different concepts may live at different depths</mark> (recall BoundlessDAS : info appeared at specific layers, got copied forward). <mark style="background: #BBFABBA6;">Storing all L layers lets the hyper-network's own layers freely choose — via attention — which target-model layer(s) matter, rather than a human hardcoding one fixed layer.</mark>
+- IMPORTANT CORRECTION:
+	- <mark style="background: #FF5582A6;">The hypernetwork cross-attends to Llama’s hidden states at every layer (Eq. 4–5), which gives it more context for building the concept vector. The patch itself is at one fixed layer "L" chosen by the user (Sec. 3, 4.1), and the best layer is found by sweeping (Fig. 3b).
+</mark>
 
 Two cross-attention modules
 - **$M\bar{H}A$** — attends to $\bar{h}$ (base prompt's hidden states).
 - **$M\hat{H}A$** — attends to $\hat{h}$ (counterfactual prompt's hidden states).
-- Same Q/K/V, dot-product, softmax mechanism — just wired to two different data sources.
+- Same Q/K/V, dot-product, soft-max mechanism — just wired to two different data sources.
 
 #### The three formulas, <mark style="background: #FFB86CA6;">per hyper-network layer p
 </mark>
@@ -382,7 +385,7 @@ What should happen (correct behavior):
 - HyperDAS should genuinely locate the **entity token "Vienna"** (not the query phrase), find/patch specifically the **latitude subspace** within it, and leave every other subspace (including country) untouched. Since country was never touched, the model still correctly answers "Austria" when it reaches the query.
 
 Superposition applies here!
-- A single entity token ("Vienna") encodes **many attributes simultaneously** in different subspaces of the same vector — country, latitude, continent, language, etc. — same idea as the earlier superposition/Michael-Jordan discussion.
+- <mark style="background: #FF5582A6;">A single entity token ("Vienna") encodes **many attributes simultaneously** in different subspaces of the same vector — country, latitude, continent, language, etc.</mark> — same idea as the earlier superposition/Michael-Jordan discussion.
 - RAVEL tests whether a method can touch just one attribute's subspace without disturbing the others, all coexisting in that one token.
 
 The shortcut the hyper-network can learn instead

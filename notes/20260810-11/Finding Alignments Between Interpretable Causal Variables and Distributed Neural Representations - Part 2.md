@@ -21,12 +21,13 @@
 
 > Same IIA score, opposite internal logic. Decomposability is the tell.
 
-|Feature|Hierarchical Equality|Monotonicity NLI|
-|---|---|---|
-|**IIA Score**|100% (Perfect)|100% (Perfect)|
-|**Internal Logic**|True abstraction — pure relation|Data structure — raw data passed through|
-|**Decomposable?**|No — inputs unrecoverable|Yes — original words still visible|
-|**Conclusion**|Symbolic algorithm|Causal "packet" of info|
+| Feature            | Hierarchical Equality            | Monotonicity NLI                         |
+| ------------------ | -------------------------------- | ---------------------------------------- |
+| **IIA Score**      | 100% (Perfect)                   | 100% (Perfect)                           |
+| **Internal Logic** | True abstraction — pure relation | Data structure — raw data passed through |
+| **Decomposable?**  | No — inputs unrecoverable        | Yes — original words still visible       |
+| **Conclusion**     | Symbolic algorithm               | Causal "packet" of info                  |
+|                    |                                  |                                          |
 
 ---
 
@@ -100,7 +101,7 @@ The interchange intervention being tested
 - **Base input:** $[F,T]$ → i.e. $x=[0,1]$ for $N$
 - **Source input:** $[T,T]$ → i.e. $x=[1,1]$ for $N$
 We're testing: "If I take the $V_1$-value from the source and force it onto the base, do $B$ and $N$ agree on the consequence?"
-
+ 
 $$
 II\big(B, \{[T,T]\}, \{\{V_1\}\}\big) \quad \text{vs.} \quad II\big(N, \{[1,1]\}, \{\{H_1\}\}\big)
 $$
@@ -278,10 +279,10 @@ The Worked Numerical Example — Fixing the Section 3.3 Mismatch
 
 The two runs we're combining:
 
-| | Input | H1 | H2 |
-|---|---|---|---|
-| **Base** (yellow, bottom-left) | [0,1] (i.e. [F,T]) | -0.34 | 0.94 |
-| **Source** (blue, bottom-right) | [1,1] (i.e. [T,T]) | 0.6 | 1.28 |
+|                                 | Input              | H1    | H2   |
+| ------------------------------- | ------------------ | ----- | ---- |
+| **Base** (yellow, bottom-left)  | [0,1] (i.e. [F,T]) | -0.34 | 0.94 |
+| **Source** (blue, bottom-right) | [1,1] (i.e. [T,T]) | 0.6   | 1.28 |
 
 - These are exactly the two runs from Section 3.3
 
