@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20261108/Non-linear Interventions on LLMs Kim 2026.md",
+                "file": "20261109/BlackboxNLP 2025 Shared Task - Findings.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Non-linear Interventions on LLMs Kim 2026"
+              "title": "BlackboxNLP 2025 Shared Task - Findings"
             }
           }
         ],
@@ -200,16 +200,19 @@
       "bases:Create new base": false
     }
   },
-  "active": "a6f2be2754fc4397",
+  "active": "322354f1b4408bae",
   "lastOpenFiles": [
-    "20260823/HyperDAS.md",
+    "Untitled.md",
+    "20261109/BlackboxNLP 2025 Shared Task - Findings.md",
+    "20261109",
+    "20261104-05/How Causal Abstraction Underpins  Computational Explanation.md",
     "20261108/Non-linear Interventions on LLMs Kim 2026.md",
+    "20260823/HyperDAS.md",
     "20261108",
     "New folder",
     "20260824/HyperDAS Pt2.md",
     "20261106-07/Combining Causal Models for More Accurate Descriptions of Neural Networks - (Pîslar, Magliacane, Geiger — CLeaR 2025).md",
     "Ideal Models, Glitchy Implementations & Misrepresentation.md",
-    "20261104-05/How Causal Abstraction Underpins  Computational Explanation.md",
     "20261106-07",
     "20261104-05/causal-abstraction-and-representation-notes-v2.md",
     "causal-abstraction-and-representation-notes-v2.md",
@@ -230,7 +233,6 @@
     "Archive.zip",
     "20260823",
     "20260819-20/DAS Tutorial Changes for Mac - Reproducible Environment Compatibility.md",
-    "20260823",
     "20260816/Neural Causal Models for Counterfactual Identification and Estimation.md",
     "20260816/Neural Causal Models for Counterfactual Identification and Estimation/IMG-20260816175341649.png",
     "20260710-11/Neural Causal Abstractions.md",
@@ -238,8 +240,6 @@
     "20260726/Potential Research Direction.md",
     "20260712/Continuation of Neural Causal Abstractions - Section 2.2.md",
     "Speaker notes.md",
-    "20260702/JMLR - Causal Abstraction, A Theoretical Foundation for Mechanistic Interpretability.md",
-    "20260725/A refresher on LLMs and Mechanistic Interpretability.md",
     "20260725/A refresher on LLMs and Mechanistic Interpretability/IMG-20260725215347243.png",
     "20260725/A refresher on LLMs and Mechanistic Interpretability/IMG-20260725210929159.png",
     "20260723/Learning Causal Abstractions of Linear Structural Causal Models - Pt3/IMG-20260723201151185.png",
